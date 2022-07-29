@@ -22,8 +22,17 @@ public class Centros implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	private String nombre;
+	private String imagen;
 	
 	
+
+	public String getImagen() {
+		return imagen;
+	}
+
+	public void setImagen(String imagen) {
+		this.imagen = imagen;
+	}
 
 	public long getId() {
 		return id;

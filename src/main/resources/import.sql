@@ -9,23 +9,23 @@ insert into ciudad(nombre) values("Madrid");
 insert into ciudad(nombre) values("Barcelona");
 insert into ciudad(nombre) values("Valencia");
 
-insert into centros(nombre) values("Cesur");                             
-insert into centros(nombre) values("Sepe-Formate");                     
-insert into centros(nombre) values("Comunidad de Madrid Centro Inav");
-insert into centros(nombre) values("Comunidad de Madrid Epsum");
-insert into centros(nombre) values("Sepe-Titulos oficiales");
-insert into centros(nombre) values("Open-manketers");
-insert into centros(nombre) values("Sepe-Grupo Aspasia formacion");
-insert into centros(nombre) values("Tu Formacion");
+insert into centros(nombre,imagen) values("CESUR","cesur.png");                             
+insert into centros(nombre,imagen) values("SEPE","LOGOSEPE.jpg");                     
+insert into centros(nombre,imagen) values("CENTRO INAV","inav.jpg");
+insert into centros(nombre,imagen) values("COMUNIDAD DE MADRID EPSUM","madrid.png");
+insert into centros(nombre,imagen) values("FUNDAULA","fundaula.png");
+insert into centros(nombre,imagen) values("TU CURSO GRATIS.NET","centros4.jpg");
+insert into centros(nombre,imagen) values("CERO CERO","descarga.png");
+insert into centros(nombre,imagen) values("FORMATE","formate.png");
 
-insert into cursos(nombre,ciudad_id,centros_id) values("FP",1,1);
-insert into cursos(nombre,ciudad_id,centros_id) values("Idiomas",1,2);
-insert into cursos(nombre,ciudad_id,centros_id) values("FP OFICIAL",2,4);
-insert into cursos(nombre,ciudad_id,centros_id) values("DESARROLLO DE APLICACIONES WEB",2,3);
-insert into cursos(nombre,ciudad_id,centros_id) values("DISEÑO",3,5);
-insert into cursos(nombre,ciudad_id,centros_id) values("MARKETING DIGITAL",3,6);
-insert into cursos(nombre,ciudad_id,centros_id) values("DESARROLLO DE APPS",4,7);
-insert into cursos(nombre,ciudad_id,centros_id) values("ROBOTICA",4,8);
+insert into cursos(nombre,ciudad_id,centros_id,imagen) values("FP",1,1,"cursos7.jpeg");
+insert into cursos(nombre,ciudad_id,centros_id,imagen) values("Idiomas",1,2,"cursos4.jpeg");
+insert into cursos(nombre,ciudad_id,centros_id,imagen) values("FP OFICIAL",2,4,"cursos6.jpeg");
+insert into cursos(nombre,ciudad_id,centros_id,imagen) values("DESARROLLO DE APLICACIONES WEB",2,3,"cursos1.jpeg");
+insert into cursos(nombre,ciudad_id,centros_id,imagen) values("DISEÑO",3,5,"cursos2.jpeg");
+insert into cursos(nombre,ciudad_id,centros_id,imagen) values("MARKETING DIGITAL",3,6,"cursos3.jpeg");
+insert into cursos(nombre,ciudad_id,centros_id,imagen) values("DESARROLLO DE APPS",4,7,"cursos8.jpeg");
+insert into cursos(nombre,ciudad_id,centros_id,imagen) values("ROBOTICA",4,8,"cursos10.jpeg");
 
 
 

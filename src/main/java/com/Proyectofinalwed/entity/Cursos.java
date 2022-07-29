@@ -38,9 +38,23 @@ public class Cursos implements Serializable {
 	@JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
 	private Centros centros;
 	
+	private String imagen;
 	
 	
 	
+	
+	public String getImagen() {
+		return imagen;
+	}
+
+
+
+	public void setImagen(String imagen) {
+		this.imagen = imagen;
+	}
+
+
+
 	public Ciudades getCiudades() {
 		return ciudades;
 	}
